@@ -51,3 +51,11 @@ A hook is a special React function that allows functional components to use feat
 ### 7. What is useEffect?
 
 `useEffect` is a React Hook used to perform side effects such as fetching data, setting timers, or interacting with external systems.
+
+
+## Project Features
+
+- Technology cards loaded from JSON data
+- Personal stack builder with duplicate prevention
+- Toast notifications for stack actions
+- Responsive design for desktop, tablet, and mobile
