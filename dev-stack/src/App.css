@@ -921,3 +921,20 @@ a {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .menu-button {
+    margin-left: 10px;
+    color: #1f2937;
+  }
+
+  .nav-links.open a {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+}
