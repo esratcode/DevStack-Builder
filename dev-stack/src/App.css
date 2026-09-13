@@ -938,3 +938,28 @@ a {
     padding: 8px 0;
   }
 }
+
+.technology-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.technology-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.technology-icon {
+  transition: transform 0.25s ease;
+}
+
+.technology-card:hover .technology-icon {
+  transform: scale(1.08);
+}
+
+.add-button {
+  transition: all 0.2s ease;
+}
+
+.add-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
