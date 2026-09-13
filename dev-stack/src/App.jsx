@@ -1,3 +1,6 @@
+import bannerStack from "./asset/banner-stack.png";
+import logoText from "./asset/logo-text.png";
+
 import { useEffect, useState } from "react";
 import "./App.css";
 import { ToastContainer, toast } from "react-toastify";
@@ -49,7 +52,7 @@ function App() {
       <ToastContainer position="top-right" autoClose={2000} />
       <nav className="navbar">
         <div className="logo">
-          <span>Dev</span> Stack
+          <img src={logoText} alt="Dev Stack" />
         </div>
 
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
@@ -106,7 +109,11 @@ function App() {
         </div>
 
         <div className="hero-image">
-          <div className="hero-code">{"</>"}</div>
+          <img
+            src={bannerStack}
+            alt="Development Stack"
+            className="hero-stack-image"
+          />
         </div>
       </section>
 
@@ -261,15 +268,14 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-brand">
-            <h2>
-              <span>Dev</span> Stack
-            </h2>
+            <img src={logoText} alt="Dev Stack" className="footer-logo" />
 
             <p>
               Build your perfect development stack with the technologies you
               love.
             </p>
           </div>
+
           <div className="social-links">
             <a href="https://github.com" target="_blank" rel="noreferrer">
               GitHub
