@@ -963,3 +963,35 @@ a {
 .add-button:hover:not(:disabled) {
   transform: translateY(-1px);
 }
+
+.your-stack {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.your-stack:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.selected-item {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.selected-item:hover {
+  transform: translateX(3px);
+}
+
+.remove-button {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.remove-button:hover {
+  transform: scale(1.1);
+}
+
+.remove-all {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.remove-all:hover {
+  transform: translateY(-1px);
+}
