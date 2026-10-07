@@ -2,14 +2,22 @@
 
 A responsive React-based website that helps developers explore modern technologies and build their own development stack.
 
+## 🔗 Live Link
+
+[Live Demo](https://dev-stack-builder-eta.vercel.app/)
+
+## 📸 Project Screenshot
+
+![Dev Stack Builder Screenshot](./screenshot.png)
+
 ## Technologies Used
 
-- React
-- JavaScript (ES6+)
-- Vite
-- CSS
-- React Toastify
-- JSON
+* React
+* JavaScript (ES6+)
+* Vite
+* CSS
+* React Toastify
+* JSON
 
 ## Features
 
@@ -21,6 +29,58 @@ A responsive React-based website that helps developers explore modern technologi
 
 3. **Responsive Design**
    Fully responsive layout for desktop, tablet, and mobile devices.
+
+## Project Features
+
+* Technology cards loaded from JSON data
+* Personal stack builder with duplicate prevention
+* Toast notifications for stack actions
+* Loading state while technology data is loaded
+* Responsive design for desktop, tablet, and mobile
+* Add, remove, and remove-all stack functionality
+
+## 📦 Dependencies
+
+* React
+* React DOM
+* React Toastify
+* Vite
+
+## 💻 How to Run Locally
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/esratcode/DevStack-Builder.git
+```
+
+### 2. Go to the project directory
+
+```bash
+cd DevStack-Builder
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the application
+
+Open the local development URL shown in your terminal, usually:
+
+```text
+http://localhost:5173
+```
 
 ## React Questions & Answers
 
@@ -52,11 +112,17 @@ Conditional rendering means showing different UI based on a condition. In this p
 
 A parent component can pass data to a child component through props. A child can send information back to the parent by calling a function passed to it as a prop.
 
-## Project Features
+## 👨‍💻 Main Technology
 
-- Technology cards loaded from JSON data
-- Personal stack builder with duplicate prevention
-- Toast notifications for stack actions
-- Loading state while technology data is loaded
-- Responsive design for desktop, tablet, and mobile
-- Add, remove, and remove-all stack functionality
+The main technology used in this project is **React**. The project uses React functional components and React Hooks such as `useState` and `useEffect` to manage application state and side effects.
+
+## 📋 Project Overview
+
+Dev Stack Builder is a responsive React-based web application that allows developers to explore different technologies and create a personalized development stack.
+
+Users can browse available technologies, add technologies to their own stack, remove individual technologies, and clear the entire stack. The application also provides toast notifications and responsive design for different screen sizes.
+
+## 🔗 Relevant Links
+
+* **Live Demo:** https://dev-stack-builder-eta.vercel.app/
+* **GitHub Repository:** https://github.com/esratcode/DevStack-Builder
