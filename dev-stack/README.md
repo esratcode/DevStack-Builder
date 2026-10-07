@@ -6,10 +6,6 @@ A responsive React-based website that helps developers explore modern technologi
 
 [Live Demo](https://dev-stack-builder-eta.vercel.app/)
 
-## 📸 Project Screenshot
-
-![Dev Stack Builder Screenshot](./screenshot.png)
-
 ## Technologies Used
 
 * React
